@@ -1,3 +1,3 @@
 # vite-react
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vite-react)
+🔗 **[Live Demo](https://svg-path-lab.vercel.app)**

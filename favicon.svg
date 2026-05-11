@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#0c0c0c"/>
+  <!-- Grid lines -->
+  <line x1="16" y1="8" x2="16" y2="56" stroke="rgba(255,255,255,0.07)" stroke-width="0.75"/>
+  <line x1="32" y1="8" x2="32" y2="56" stroke="rgba(255,255,255,0.07)" stroke-width="0.75"/>
+  <line x1="48" y1="8" x2="48" y2="56" stroke="rgba(255,255,255,0.07)" stroke-width="0.75"/>
+  <line x1="8" y1="16" x2="56" y2="16" stroke="rgba(255,255,255,0.07)" stroke-width="0.75"/>
+  <line x1="8" y1="32" x2="56" y2="32" stroke="rgba(255,255,255,0.07)" stroke-width="0.75"/>
+  <line x1="8" y1="48" x2="56" y2="48" stroke="rgba(255,255,255,0.07)" stroke-width="0.75"/>
+  <!-- Bezier path -->
+  <path d="M 12 48 C 12 48, 20 12, 32 32 C 44 52, 52 16, 52 16"
+    fill="none" stroke="#2563eb" stroke-width="3.5"
+    stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Anchor points -->
+  <rect x="9" y="45" width="6" height="6" rx="1.5" fill="#0c0c0c" stroke="#2563eb" stroke-width="1.5"/>
+  <rect x="29" y="29" width="6" height="6" rx="3" fill="#0c0c0c" stroke="#2563eb" stroke-width="1.5"/>
+  <rect x="49" y="13" width="6" height="6" rx="1.5" fill="#0c0c0c" stroke="#2563eb" stroke-width="1.5"/>
+  <!-- Control point dots -->
+  <circle cx="20" cy="12" r="2" fill="none" stroke="rgba(37,99,235,0.45)" stroke-width="1.2"/>
+  <circle cx="44" cy="52" r="2" fill="none" stroke="rgba(37,99,235,0.45)" stroke-width="1.2"/>
+</svg>

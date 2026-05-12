@@ -16,6 +16,7 @@ import {
   FileDown,
   Link2,
 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const SAMPLE =
   'M 854 506 C 854 694.3 700.3 848 512 848 C 323.7 848 170 694.3 170 506 C 170 317.7 323.7 164 512 164 C 700.3 164 854 317.7 854 506 Z M 512 320 C 406.7 320 322 404.7 322 510 C 322 615.3 406.7 700 512 700 C 617.3 700 702 615.3 702 510 C 702 404.7 617.3 320 512 320 Z';
@@ -1147,6 +1148,7 @@ export default function SVGPathLab() {
           github.com/afonsobranco
         </a>
       </div>
+      <SpeedInsights />
     </div>
   );
 }

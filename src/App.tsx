@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback, memo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import {
   Copy,
   Download,
@@ -1147,6 +1148,7 @@ export default function SVGPathLab() {
           github.com/afonsobranco
         </a>
       </div>
+      <Analytics />
     </div>
   );
 }
